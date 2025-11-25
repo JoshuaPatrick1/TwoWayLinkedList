@@ -1,0 +1,16 @@
+- head : Node<E>
+- tail : Node<E>
+- size : int
+-------------------------
++ TwoWayLinkedList()
++ add(index : int, e : E) : void
++ add(e : E) : void
++ addFirst(e : E) : void
++ addLast(e : E) : void
++ remove(index : int) : E
++ get(index : int) : E
++ size() : int
++ listIterator() : ListIterator<E>
++ listIterator(index : int) : ListIterator<E>
+- getNode(index : int) : Node<E>
+- checkIndex(index : int) : void
